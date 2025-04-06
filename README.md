@@ -69,7 +69,8 @@ g++ -shared -fPIC -O3 -o /path/to/production/rsi.so /path/to/source/rsi.cpp
 ```
 
 ### 🏎️ Performance Comparison
-Data Points	  Python (ms)	C++ (ms)	Speedup
-10,000	      120	        15	      8x
-100,000	      1,200	      140	      8.5x
-1,000,000	    12,000	    1,100	    11x
+| Implementation | 10,000 points | 100,000 points | 1,000,000 points |
+|----------------|--------------:|---------------:|-----------------:|
+| Python (Pandas) | 120 ms        | 1,200 ms       | 12,000 ms        |
+| C++            | 15 ms         | 140 ms         | 1,100 ms         |
+| **Speedup**    | **8x**        | **8.5x**       | **11x**          |
