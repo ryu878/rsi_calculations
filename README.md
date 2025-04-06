@@ -1,17 +1,15 @@
-# RSI Calculator with C++ and Python
+# RSI Calculator with C++ Acceleration
 
-This project provides a high-performance RSI (Relative Strength Index) calculator that can use either:
-- Optimized C++ implementation for speed
-- Pure Python/Pandas implementation for flexibility
+![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
+![C++](https://img.shields.io/badge/C++-17-green.svg)
 
-## Features
-- Switch between C++ and Python implementations with one flag
-- Identical results from both implementations
-- 5-10x faster performance with C++ on large datasets
+A high-performance Relative Strength Index (RSI) calculator that can switch between Python and optimized C++ implementations.
 
-## Installation
+## 📦 Installation
 
 ### Prerequisites
+
 ```bash
+# Ubuntu/Debian
 sudo apt update
 sudo apt install g++ python3-dev -y
