@@ -73,4 +73,4 @@ g++ -shared -fPIC -O3 -o /path/to/production/rsi.so /path/to/source/rsi.cpp
 |----------------|--------------:|---------------:|-----------------:|
 | Python (Pandas) | 120 ms        | 1,200 ms       | 12,000 ms        |
 | C++            | 15 ms         | 140 ms         | 1,100 ms         |
-| **Speedup**    | **8x**        | **8.5x**       | **11x**          |
+| **Speedup** ⚡   | **8x**        | **8.5x**       | **11x**          |
