@@ -18,7 +18,25 @@ sudo apt install g++ python3-dev -y
 ```bash
 g++ -shared -fPIC -O3 -o rsi.so rsi.cpp
 ```
-Compile C++ Code
+
+### Compile C++ Code
 ```bash
 g++ -shared -fPIC -O3 -o rsi.so rsi.cpp
+```
+
+### 🚀 Quick Start
+Add these files to your project:
+
+- rsi.cpp (C++ implementation)
+
+- rsi_wrapper.py (Python interface)
+
+In your Python code:
+```bash
+from rsi_wrapper import calculate_rsi_cpp
+
+# Calculate RSI using C++
+prices = [1,2,3,4,5,4,3,2,1,2,3,4,5,6,7,8]
+rsi_values = calculate_rsi_cpp(prices)
+print(rsi_values)
 ```
