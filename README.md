@@ -18,3 +18,7 @@ sudo apt install g++ python3-dev -y
 ```bash
 g++ -shared -fPIC -O3 -o rsi.so rsi.cpp
 ```
+Compile C++ Code
+```bash
+g++ -shared -fPIC -O3 -o rsi.so rsi.cpp
+```
